@@ -38,7 +38,7 @@ namespace NetSatis.Entities.Mapping
             this.Property(p => p.OzelKod4).HasMaxLength(30);
             this.Property(p => p.VergiDairesi).HasMaxLength(30);
             this.Property(p => p.VergiNo).HasMaxLength(15);
-            this.Property(p => p.İskontoOrani).HasPrecision(5, 2);
+            this.Property(p => p.IskontoOrani).HasPrecision(5, 2);
             this.Property(p => p.RiskLimiti).HasPrecision(5, 2);
             this.Property(p => p.AlisOzelFiyati).HasMaxLength(15);
             this.Property(p => p.SatisOzelFiyati).HasMaxLength(15);
@@ -70,7 +70,7 @@ namespace NetSatis.Entities.Mapping
             this.Property(p => p.OzelKod4).HasColumnName("OzelKod4");
             this.Property(p => p.VergiDairesi).HasColumnName("VergiDairesi");
             this.Property(p => p.VergiNo).HasColumnName("VergiNo");
-            this.Property(p => p.İskontoOrani).HasColumnName("İskontoOrani");
+            this.Property(p => p.IskontoOrani).HasColumnName("IskontoOrani");
             this.Property(p => p.RiskLimiti).HasColumnName("RiskLimiti");
             this.Property(p => p.AlisOzelFiyati).HasColumnName("AlisOzelFiyati");
             this.Property(p => p.SatisOzelFiyati).HasColumnName("SatisOzelFiyati");

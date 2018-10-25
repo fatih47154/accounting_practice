@@ -20,3 +20,21 @@ C:\Users\fatih\Desktop\Muhasebe\NetSatis\NetSatis.Entities\bin\Debug\EntityFrame
 C:\Users\fatih\Desktop\Muhasebe\NetSatis\NetSatis.Entities\obj\Debug\NetSatis.Entities.csprojResolveAssemblyReference.cache
 C:\Users\fatih\Desktop\Muhasebe\NetSatis\NetSatis.Entities\obj\Debug\NetSatis.Entities.dll
 C:\Users\fatih\Desktop\Muhasebe\NetSatis\NetSatis.Entities\obj\Debug\NetSatis.Entities.pdb
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\bin\Debug\NetSatis.Entities.dll.config
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\bin\Debug\NetSatis.Entities.dll
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\bin\Debug\NetSatis.Entities.pdb
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\bin\Debug\EntityFramework.dll
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\bin\Debug\EntityFramework.xml
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\obj\Debug\NetSatis.Entities.csprojResolveAssemblyReference.cache
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\obj\Debug\NetSatis.Entities.dll
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\obj\Debug\NetSatis.Entities.pdb
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\bin\Debug\FluentValidation.dll
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\bin\Debug\System.ValueTuple.dll
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\bin\Debug\FluentValidation.xml
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\bin\Debug\System.ValueTuple.xml
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\obj\Debug\NetSatis.Entities.Migrations.CreateDatabase.resources
+C:\Users\fatih\Desktop\Muhasebe Uygulaması\NetSatis.Entities\obj\Debug\NetSatis.Entities.csproj.GenerateResource.Cache

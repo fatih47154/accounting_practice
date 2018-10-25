@@ -27,7 +27,7 @@ namespace NetSatis.Entities.Mapping
             this.Property(p => p.ToplamTutar).HasPrecision(12, 2);
             this.Property(p => p.Aciklama).HasMaxLength(200);
 
-            this.ToTable("fisler");
+            this.ToTable("Fisler");
             this.Property(p => p.Id).HasColumnName("Id");
             this.Property(p => p.FisKodu).HasColumnName("FisKodu");
             this.Property(p => p.FisTuru).HasColumnName("FisTuru");
