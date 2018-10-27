@@ -7,16 +7,34 @@ using System.Threading.Tasks;
 using System.Linq.Expressions;
 using System.Data.Entity;
 using System.Data.Entity.Migrations;
+using FluentValidation;
+using NetSatis.Entities.Tools;
 
 namespace NetSatis.Entities.Repositories
 {
-    public class EntityRepositoryBase<TContext, TEntity> : IEntityRepository<TContext, TEntity>
+    public class EntityRepositoryBase<TContext, TEntity, TValidator> : IEntityRepository<TContext, TEntity>
         where TContext : DbContext, new()
         where TEntity : class, IEntity, new()
+        where TValidator : IValidator, new()
     {
+        public List<TEntity> GetAll(TContext context, Expression<Func<TEntity, bool>> filter = null)
+        {
+            return filter == null ? context.Set<TEntity>().ToList() : context.Set<TEntity>().Where(filter).ToList();
+        }
+
+        public TEntity GetByFilter(TContext context, Expression<Func<TEntity, bool>> filter)
+        {
+            return context.Set<TEntity>().SingleOrDefault(filter);
+        }
+
         public void AddOrUpdate(TContext context, TEntity entity)
         {
-            context.Set<TEntity>().AddOrUpdate(entity);
+            TValidator validator = new TValidator();
+            var validationResult = ValidatorTool.Validate(validator,entity);
+            if (validationResult)
+            {
+                context.Set<TEntity>().AddOrUpdate(entity);
+            }
         }
 
         public void Delete(TContext context, Expression<Func<TEntity, bool>> filter)

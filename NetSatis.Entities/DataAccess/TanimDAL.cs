@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 using NetSatis.Entities.Context;
 using NetSatis.Entities.Repositories;
 using NetSatis.Entities.Tables;
+using NetSatis.Entities.Validations;
 
 namespace NetSatis.Entities.DataAccess
 {
-    public class TanimDAL : EntityRepositoryBase<NetSatisContext, Depo>
+    public class TanimDAL : EntityRepositoryBase<NetSatisContext, Tanim, TanimValidator>
     {
     }
 }
