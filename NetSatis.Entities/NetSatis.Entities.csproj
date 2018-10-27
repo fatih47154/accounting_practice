@@ -65,6 +65,17 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Context\NetSatisContext.cs" />
+    <Compile Include="DataAccess\CariDAL.cs" />
+    <Compile Include="DataAccess\DepoDAL.cs" />
+    <Compile Include="DataAccess\FisDAL.cs" />
+    <Compile Include="DataAccess\KasaDAL.cs" />
+    <Compile Include="DataAccess\KasaHareketDAL.cs" />
+    <Compile Include="DataAccess\OdemeTuruDAL.cs" />
+    <Compile Include="DataAccess\StokDAL.cs" />
+    <Compile Include="DataAccess\StokHareketDAL.cs" />
+    <Compile Include="DataAccess\TanimDAL.cs" />
+    <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Interfaces\IEntityRepository.cs" />
     <Compile Include="Mapping\CariMap.cs" />
     <Compile Include="Mapping\DepoMap.cs" />
     <Compile Include="Mapping\FisMap.cs" />
@@ -80,6 +91,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\EntityRepositoryBase.cs" />
     <Compile Include="Tables\Cari.cs" />
     <Compile Include="Tables\Depo.cs" />
     <Compile Include="Tables\Fis.cs" />
